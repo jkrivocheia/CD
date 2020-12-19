@@ -1,0 +1,27 @@
+mkdir Week8
+cd Week8
+touch abc
+touch xyz
+vi abc
+vi xyz
+git add .
+git commit -m "added to sample files"
+cd ..
+ls
+git remote add origin https://github.com/jkrivocheia/basic_repo.git
+git push
+git push --set-upstream origin master
+git push
+history
+cd Week8
+ls
+mkdir Assignments
+git add .
+git commit -m "added assignments"
+git push
+git status
+ls
+pwd
+git add Assignments
+git commit -m "added assignments"
+cd Assignments
